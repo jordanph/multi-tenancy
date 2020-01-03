@@ -1,3 +1,2 @@
-namespace: linkerd
 resources:
-  - linkerd-base.yaml
+  - linkerd.yaml
