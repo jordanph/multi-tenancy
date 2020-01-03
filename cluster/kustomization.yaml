@@ -1,3 +1,5 @@
 bases:
   - ./common/
+  - ./linkerd/
+  - ./flagger/
   - ./property-insights/
