@@ -14,7 +14,7 @@ spec:
             - --git-poll-interval=5m
             - --sync-interval=5m
             - --ssh-keygen-dir=/var/fluxd/keygen
-            - --k8s-allow-namespace=team1
+            - --k8s-allow-namespace=property-insights
             - --git-url=git@github.com:jordanph/multi-tenancy-team1.git
             - --git-branch=master
 ---
@@ -25,4 +25,4 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: flux
-    namespace: team1
+    namespace: property-insights
