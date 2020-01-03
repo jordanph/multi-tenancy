@@ -1,5 +1,4 @@
 namespace: linkerd-system
 resources:
   - namespace.yaml
-bases:
   - linkerd.yaml
